@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/woods"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparentOrange"
+        android:onClick="keyPress"
+        android:text="."
+        android:textColor="@color/textOrange"
+        app:layout_constraintEnd_toStartOf="@+id/button23"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button23" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparentOrange"
+        android:onClick="keyPress"
+        android:text="C"
+        android:textColor="@color/textOrange"
+        app:layout_constraintEnd_toStartOf="@+id/button25"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button23"
+        app:layout_constraintTop_toTopOf="@+id/button25" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparentOrange"
+        android:onClick="keyPress"
+        android:text="/"
+        android:textColor="@color/textOrange"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button24"
+        app:layout_constraintTop_toBottomOf="@+id/button21" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparentOrange"
+        android:onClick="keyPress"
+        android:text="0"
+        android:textColor="@color/textOrange"
+        app:layout_constraintEnd_toStartOf="@+id/button24"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button22"
+        app:layout_constraintTop_toTopOf="@+id/button24" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparentOrange"
+        android:onClick="keyPress"
+        android:text="2"
+        android:textColor="@color/textOrange"
+        app:layout_constraintEnd_toStartOf="@+id/button20"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button18"
+        app:layout_constraintTop_toTopOf="@+id/button20" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparentOrange"
+        android:onClick="keyPress"
+        android:text="1"
+        android:textColor="@color/textOrange"
+        app:layout_constraintEnd_toStartOf="@+id/button19"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button19" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparentOrange"
+        android:onClick="keyPress"
+        android:text="x"
+        android:textColor="@color/textOrange"
+        app:layout_constraintBottom_toTopOf="@+id/button25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button20"
+        app:layout_constraintTop_toBottomOf="@+id/button9" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparentOrange"
+        android:onClick="keyPress"
+        android:text="3"
+        android:textColor="@color/textOrange"
+        app:layout_constraintEnd_toStartOf="@+id/button21"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button19"
+        app:layout_constraintTop_toTopOf="@+id/button21" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparentOrange"
+        android:onClick="keyPress"
+        android:text="-"
+        android:textColor="@color/textOrange"
+        app:layout_constraintBottom_toTopOf="@+id/button21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button8"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparentOrange"
+        android:onClick="keyPress"
+        android:text="4"
+        android:textColor="@color/textOrange"
+        app:layout_constraintEnd_toStartOf="@+id/button7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button7" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparentOrange"
+        android:onClick="keyPress"
+        android:text="5"
+        android:textColor="@color/textOrange"
+        app:layout_constraintEnd_toStartOf="@+id/button8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button6"
+        app:layout_constraintTop_toTopOf="@+id/button8" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparentOrange"
+        android:onClick="keyPress"
+        android:text="6"
+        android:textColor="@color/textOrange"
+        app:layout_constraintEnd_toStartOf="@+id/button9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button7"
+        app:layout_constraintTop_toTopOf="@+id/button9" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparentOrange"
+        android:onClick="keyPress"
+        android:text="8"
+        android:textColor="@color/textOrange"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button5"
+        app:layout_constraintTop_toTopOf="@+id/button3" />
+
+    <TextView
+        android:id="@+id/input"
+        android:layout_width="0dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/paleYellow"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/current" />
+
+    <TextView
+        android:id="@+id/current"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/textOrange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/last" />
+
+    <TextView
+        android:id="@+id/last"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/textOrange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/transparentOrange"
+        android:onClick="keyPress"
+        android:text="="
+        android:textColor="@color/textOrange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button25" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparentOrange"
+        android:onClick="keyPress"
+        android:text="+"
+        android:textColor="@color/textOrange"
+        app:layout_constraintBottom_toTopOf="@+id/button9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/input" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparentOrange"
+        android:onClick="keyPress"
+        android:text="9"
+        android:textColor="@color/textOrange"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button4"
+        app:layout_constraintTop_toTopOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparentOrange"
+        android:onClick="keyPress"
+        android:text="7"
+        android:textColor="@color/textOrange"
+        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

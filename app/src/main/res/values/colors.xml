@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparentOrange">#b0ff6f00</color>
+    <color name="solidOrange">#ff6f00</color>
+    <color name="paleYellow">#b0ffff72</color>
+    <color name="evenPalerYellow">#99ffff72</color>
+    <color name="textOrange">#ff6f00</color>
+</resources>
